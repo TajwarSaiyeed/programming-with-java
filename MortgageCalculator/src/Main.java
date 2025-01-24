@@ -12,16 +12,16 @@ public class Main {
         int years = scanner.nextInt();
 
         double calculateRate = (rate / 100.00) / 12.00;
-        int yearInDays = years * 12;
+        int numberOfPayments = years * 12;
         /*
          * formula of mortgage calculator
          * mortgage = p*(r * ((1+r)^n)/((1+r)^n - 1))
          */
-        double mortgage = principal * (calculateRate * Math.pow((1 + calculateRate), yearInDays))
-                / (Math.pow((1 + calculateRate), yearInDays) - 1);
+        double mortgage = principal * (calculateRate * Math.pow((1 + calculateRate), numberOfPayments))
+                / (Math.pow((1 + calculateRate), numberOfPayments) - 1);
 
         NumberFormat currency = NumberFormat.getCurrencyInstance();
-        System.out.print("Mortgage: " + currency.format(mortgage));
+        System.out.println("Mortgage: " + currency.format(mortgage));
         scanner.close();
     }
 }
