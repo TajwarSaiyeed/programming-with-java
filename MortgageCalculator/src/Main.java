@@ -1,3 +1,5 @@
+// https://www.wikihow.com/Calculate-Mortgage-Payments
+
 import java.text.NumberFormat;
 import java.util.Scanner;
 
