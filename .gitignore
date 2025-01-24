@@ -1,2 +1,4 @@
-HelloWorld/HelloWorld.iml
 .cph
+.idea
+.out
+*.iml
