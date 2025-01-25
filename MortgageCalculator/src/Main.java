@@ -4,26 +4,32 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Principal: ");
-        long principal = scanner.nextLong();
-        System.out.print("Annual Interest Rate: ");
-        double rate = scanner.nextDouble();
-        System.out.print("Period (Years): ");
-        int years = scanner.nextInt();
+        final byte MONTH_IN_YEAR = 12;
+        final byte PERCENT = 100;
 
-        double calculateRate = (rate / 100.00) / 12.00;
-        int numberOfPayments = years * 12;
-        /*
-         * formula of mortgage calculator
-         * mortgage = p*(r * ((1+r)^n)/((1+r)^n - 1))
-         */
-        double mortgage = principal * (calculateRate * Math.pow((1 + calculateRate), numberOfPayments))
-                / (Math.pow((1 + calculateRate), numberOfPayments) - 1);
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Principal: ");
+            int principal = scanner.nextInt();
 
-        NumberFormat currency = NumberFormat.getCurrencyInstance();
-        System.out.println("Mortgage: " + currency.format(mortgage));
-        scanner.close();
+            System.out.print("Annual Interest Rate: ");
+            float annualInterest = scanner.nextFloat();
+            float monthlyInterest = annualInterest / PERCENT / MONTH_IN_YEAR;
+
+            System.out.print("Period (Years): ");
+            byte years = scanner.nextByte();
+            int numberOfPayments = years * MONTH_IN_YEAR;
+
+            /*
+             * formula of mortgage calculator
+             * mortgage = p*(r * ((1+r)^n)/((1+r)^n - 1))
+             */
+            double mortgage = principal * (monthlyInterest * Math.pow((1 + monthlyInterest), numberOfPayments))
+                    / (Math.pow((1 + monthlyInterest), numberOfPayments) - 1);
+
+            String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
+            System.out.println("Mortgage: " + mortgageFormatted);
+        }
     }
 }
