@@ -6,22 +6,22 @@ This repository contains a collection of Java programs that demonstrate fundamen
 
 This repository includes the following Java files:
 
-*   [**`ArithmeticExpressions.java`**](/HelloWorld/src/ArithmeticExpressions.java): Examples demonstrating different arithmetic operations and how to construct arithmetic expressions in Java.
-*   [**`Array.java`**](/HelloWorld/src/Array.java): Shows how to declare, initialize, and manipulate single-dimensional arrays in Java.
-*   [**`Casting.java`**](/HelloWorld/src/Casting.java): Illustrates explicit and implicit type casting between different primitive data types.
-*   [**`Contants.java`**](/HelloWorld/src/Contants.java): Demonstrates how to declare and use constant variables in Java using the `final` keyword.
-*   [**`Escape_Sequences.java`**](/HelloWorld/src/Escape_Sequences.java): Provides examples of using escape sequences in strings for special characters.
-*   [**`FormattingNumbers.java`**](/HelloWorld/src/FormattingNumbers.java): Explores ways to format numbers (e.g., currency, percentages) for output.
-*   [**`Main.java`**](/HelloWorld/src/Main.java): This is a basic main method file that contains simple code.
-*   [**`MathOperation.java`**](/HelloWorld/src/MathOperation.java): Illustrates commonly used math functions provided by java standard library.
-*   [**`MultiDimensionArray.java`**](/HelloWorld/src/MultiDimensionArray.java): Shows how to create and work with multi-dimensional arrays.
-*   [**`OrderOfOperations.java`**](/HelloWorld/src/OrderOfOperations.java): Demonstrates the precedence of operators in Java expressions.
-*   [**`Pri_Vs_Ref.java`**](/HelloWorld/src/Pri_Vs_Ref.java): Compares primitive data types with reference types, specifically focusing on their way of storing data and variable assignation.
-*   [**`Primitive_Types.java`**](/HelloWorld/src/Primitive_Types.java):  Examples of using all of the primitive data types, explaining their ranges, sizes, and default values.
-*   [**`ReadInput.java`**](/HelloWorld/src/ReadInput.java): Shows how to read input from the user using the `Scanner` class.
-*   [**`Reference_Type.java`**](/HelloWorld/src/Reference_Type.java): Explains the core of reference type, such as object initialization and object type variables.
-*   [**`Strings.java`**](/HelloWorld/src/Strings.java): Examples of how to create, compare, and manipulate Strings using String class.
-*   [**`Variable.java`**](/HelloWorld/src/Variable.java): Demonstrates how to declare and use variables with different data types.
+*   [**`ArithmeticExpressions.java`**](/ArithmeticExpressions.java): Examples demonstrating different arithmetic operations and how to construct arithmetic expressions in Java.
+*   [**`Array.java`**](/Array.java): Shows how to declare, initialize, and manipulate single-dimensional arrays in Java.
+*   [**`Casting.java`**](/Casting.java): Illustrates explicit and implicit type casting between different primitive data types.
+*   [**`Contants.java`**](/Contants.java): Demonstrates how to declare and use constant variables in Java using the `final` keyword.
+*   [**`Escape_Sequences.java`**](/Escape_Sequences.java): Provides examples of using escape sequences in strings for special characters.
+*   [**`FormattingNumbers.java`**](/FormattingNumbers.java): Explores ways to format numbers (e.g., currency, percentages) for output.
+*   [**`Main.java`**](/Main.java): This is a basic main method file that contains simple code.
+*   [**`MathOperation.java`**](/MathOperation.java): Illustrates commonly used math functions provided by java standard library.
+*   [**`MultiDimensionArray.java`**](/MultiDimensionArray.java): Shows how to create and work with multi-dimensional arrays.
+*   [**`OrderOfOperations.java`**](/OrderOfOperations.java): Demonstrates the precedence of operators in Java expressions.
+*   [**`Pri_Vs_Ref.java`**](/Pri_Vs_Ref.java): Compares primitive data types with reference types, specifically focusing on their way of storing data and variable assignation.
+*   [**`Primitive_Types.java`**](/Primitive_Types.java):  Examples of using all of the primitive data types, explaining their ranges, sizes, and default values.
+*   [**`ReadInput.java`**](/ReadInput.java): Shows how to read input from the user using the `Scanner` class.
+*   [**`Reference_Type.java`**](/Reference_Type.java): Explains the core of reference type, such as object initialization and object type variables.
+*   [**`Strings.java`**](/Strings.java): Examples of how to create, compare, and manipulate Strings using String class.
+*   [**`Variable.java`**](/Variable.java): Demonstrates how to declare and use variables with different data types.
 
 ## How to Use
 
