@@ -5,5 +5,6 @@ public class Contants {
         final float PI = 3.14F;
         // Can not charge the value later on
         // PI = 20; Cannot assign a value to final variable 'PI'
+        System.out.println(PI);
     }
 }

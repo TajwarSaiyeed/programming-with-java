@@ -22,6 +22,11 @@ This repository includes the following Java files:
 *   [**`Reference_Type.java`**](/Reference_Type.java): Explains the core of reference type, such as object initialization and object type variables.
 *   [**`Strings.java`**](/Strings.java): Examples of how to create, compare, and manipulate Strings using String class.
 *   [**`Variable.java`**](/Variable.java): Demonstrates how to declare and use variables with different data types.
+*   [**`ComparisonOperator.java`**](/ComparisonOperator.java): Examples of using comparison operators to compare values in Java.
+*   [**`LogicalOperator.java`**](/LogicalOperators.java): Examples of using logical operators to combine multiple conditions in Java.
+*   [**`TernaryOperator.java`**](/TernaryOperator.java): Examples of using the ternary operator to write concise conditional expressions in Java.
+*   [**`IfStatements.java`**](/IfStatements.java): Examples of using if statements to execute code based on a condition in Java.
+*   [**`Simplifying_IF_Statements.java`**](/Simplifying_IF_Statements.java): Examples of simplifying if statements using logical operators and ternary operators.
 
 ## How to Use
 
